@@ -6,10 +6,12 @@
     <uses-permission android:name="android.permission.CAMERA"/>
    <application
         android:label="flutter_easy_permission_example"
+        android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name="xyz.bczl.flutter.easy_permission_example.MainActivity"
             android:launchMode="singleTop"
+            android:exported="true"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
