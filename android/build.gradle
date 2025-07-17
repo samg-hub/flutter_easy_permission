@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 34
+    namespace 'com.flutter.plugins.flutter_easy_permission'
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 21
